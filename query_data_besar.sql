@@ -3,4 +3,4 @@ FROM (
     SELECT NIM, avg(IP)
     FROM mahasiswa
 ) 
-where IP >= 10
+where IP >= 100
